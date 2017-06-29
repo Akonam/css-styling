@@ -1,0 +1,84 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - #eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+html {
+  background-image: url(img/bg.jpg);
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white;
+  border: 4px solid #ffd24a;
+  border-radius: 6px;
+  margin: 40px 110px;
+}
+
+header {
+  background-color: #ff8523;
+  padding: 40px;
+}
+
+nav a {
+  border: 1px solid white;
+  color: white;
+  padding: 15px;
+}
+
+header a img {
+  margin-bottom: 30px;
+}
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+ul li {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%; 
+}
+
+thead tr {
+  background-color: #1fabe5;
+}
+
+thead td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+tbody td {
+  border: 1px solid #1fabe5;
+}
+
+table img {
+  width: 50px;
+}
+
+form {
+  background-color: #dddddd;
+  padding: 20px;
+}
+
+form .name {
+  background-color: #ff8523;
+  padding: 15px;
+}
+
+form div {
+  margin: 20px;
+}
